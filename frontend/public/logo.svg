@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background: Dark Navy -->
+  <rect width="512" height="512" rx="64" fill="#172b4d"/>
+  
+  <g transform="translate(256, 200)">
+    <!-- Left side: Silkworm Cocoon -->
+    <path d="M-8,-110 C-65,-105 -110,-55 -110,20 C-110,85 -60,120 -8,125 C-12,80 -12,-40 -8,-110 Z" 
+          fill="#0065FF"/>
+    
+    <!-- Cocoon inner layer -->
+    <path d="M-10,-50 C-45,-45 -75,-10 -75,30 C-75,70 -45,95 -10,105 C-14,60 -14,-10 -10,-50 Z" 
+          fill="#0052CC" opacity="0.4"/>
+
+    <!-- Right: Emerging Butterfly - Upper Wing -->
+    <path d="M2,-105 C35,-115 115,-95 125,-25 C130,20 85,45 2,25 C0,-30 0,-70 2,-105 Z" 
+          fill="#7B5EA7"/>
+    <!-- Wing highlight -->
+    <path d="M15,-80 C50,-90 95,-70 100,-25 C75,0 35,5 15,-15 Z" 
+          fill="#00C7E6" opacity="0.85"/>
+          
+    <!-- Lower Wing -->
+    <path d="M2,35 C65,45 105,75 85,120 C65,145 15,130 2,122 C0,90 0,60 2,35 Z" 
+          fill="#9980FA"/>
+          
+    <!-- Antenna -->
+    <path d="M-3,-115 Q0,-130 18,-135" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="18" cy="-135" r="4" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Koza text -->
+  <text x="256" y="420" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="68" 
+        font-weight="800" 
+        letter-spacing="3" 
+        fill="#FFFFFF">Koza</text>
+  
+  <!-- Tagline -->
+  <text x="256" y="452" 
+        text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="14" 
+        font-weight="600" 
+        letter-spacing="5" 
+        fill="#7B5EA7">TASKS TO BLOOM</text>
+</svg>

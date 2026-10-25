@@ -1,0 +1,52 @@
+.card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px 12px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(9,30,66,0.13), 0 0 1px rgba(9,30,66,0.08);
+  transition: box-shadow 0.15s, transform 0.1s;
+  user-select: none;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(9,30,66,0.18);
+  transform: translateY(-1px);
+}
+
+.card-title {
+  font-size: 14px;
+  color: #172b4d;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.card-priority {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.priority-low { background: #e3fcef; color: #006644; }
+.priority-medium { background: #fffae6; color: #974f0c; }
+.priority-high { background: #ffebe6; color: #bf2600; }
+
+.card-due {
+  font-size: 11px;
+  color: #5e6c84;
+}
+
+.card-due.overdue {
+  color: #bf2600;
+  font-weight: 600;
+}
