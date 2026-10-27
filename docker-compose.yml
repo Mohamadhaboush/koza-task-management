@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: postgres:16-alpine
@@ -13,6 +11,11 @@ services:
       - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d proje_db"]
+      interval: 2s
+      timeout: 3s
+      retries: 10
 
   backend:
     build:
@@ -28,7 +31,9 @@ services:
       JWT_SECRET: myaccessecretkey123
       JWT_EXPIRES_IN: 1d
     depends_on:
-      - db
+      db:
+        condition: service_healthy
+    command: sh -c "npx node-pg-migrate up --no-check-order && node src/seed.js && node src/server.js"
 
   frontend:
     build:

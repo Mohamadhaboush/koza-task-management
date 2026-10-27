@@ -1,14 +1,15 @@
 {
-  "name": "backend-staj-starter",
+  "name": "koza-backend",
   "version": "1.0.0",
-  "description": "Multitenant Express + PostgreSQL starter projesi (staj grup projeleri için)",
+  "description": "Koza multi-tenant task management backend API",
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "migrate:create": "node-pg-migrate create",
     "migrate:up": "node-pg-migrate up",
-    "migrate:down": "node-pg-migrate down"
+    "migrate:down": "node-pg-migrate down",
+    "seed": "node src/seed.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
