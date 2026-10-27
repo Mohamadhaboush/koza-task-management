@@ -6,19 +6,19 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- **🏢 Multi-Tenancy Architecture:** Strict company-level data isolation. Each organization operates in its own isolated workspace scope.
-- **📋 Kanban Board:** Dynamic board stages (Backlog, In Progress, Review, Done) with smooth task movement, priority badges, and visual tags.
-- **⏱️ Live Activity Logs (Audit Trail):** Automatic real-time activity logging for assignee updates, priority shifts, stage transitions, and task creations.
-- **✅ Task Checklists & Progress:** Sub-task management with interactive progress bars, due-date tracking, and urgency tagging.
-- **📦 Project Archiving:** Soft-archiving workflow to freeze completed projects in read-only mode with restore capability.
-- **🔐 Secure Authentication:** Stateless JWT authentication paired with bcrypt password hashing.
-- **🐳 Zero-Config Dockerization:** One-command setup running PostgreSQL 16, Node.js API (auto-migrated and seeded), and React Frontend in isolated containers via Docker Compose.
+- ** Multi-Tenancy Architecture:** Strict company-level data isolation. Each organization operates in its own isolated workspace scope.
+- ** Kanban Board:** Dynamic board stages (Backlog, In Progress, Review, Done) with smooth task movement, priority badges, and visual tags.
+- ** Live Activity Logs (Audit Trail):** Automatic real-time activity logging for assignee updates, priority shifts, stage transitions, and task creations.
+- ** Task Checklists & Progress:** Sub-task management with interactive progress bars, due-date tracking, and urgency tagging.
+- ** Project Archiving:** Soft-archiving workflow to freeze completed projects in read-only mode with restore capability.
+- ** Secure Authentication:** Stateless JWT authentication paired with bcrypt password hashing.
+- ** Zero-Config Dockerization:** One-command setup running PostgreSQL 16, Node.js API (auto-migrated and seeded), and React Frontend in isolated containers via Docker Compose.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -29,7 +29,7 @@
 
 ---
 
-## ⚡ Quick Start with Docker
+##  Quick Start with Docker
 
 You can run the entire ecosystem locally with a single command:
 
@@ -56,8 +56,3 @@ The database migrations and initial demo data will be applied automatically on f
 
 *(You can also register a brand new organization directly from the login page).*
 
----
-
-## 👨‍💻 Author
-
-- **Muhammed Nur Habbuş** — [GitHub](https://github.com/Mohamadhaboush)
