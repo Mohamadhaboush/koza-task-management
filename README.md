@@ -1,24 +1,24 @@
-# 🦋 Koza — Multi-Tenant Task Management Platform
+# Koza — Multi-Tenant Task Management Platform
 
 > *"Ideas and tasks mature in Koza."*
 
-**Koza** is a modern, multi-tenant task and project management platform inspired by the design language of Trello. Built with a robust full-stack architecture, it enables organizations to manage workspaces, projects, and tasks with granular isolation and real-time auditability.
+Koza is a modern, multi-tenant task and project management platform inspired by the design language of Trello. Developed as part of our software engineering summer internship, it enables organizations to manage workspaces, projects, and tasks with granular data isolation and real-time auditability.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- **🏢 Multi-Tenancy Architecture:** Strict company-level data isolation. Each organization operates in its own isolated workspace scope.
-- **📋 Kanban Board:** Dynamic board stages (Backlog, In Progress, Review, Done) with smooth task movement, priority badges, and visual tags.
-- **⏱️ Live Activity Logs (Audit Trail):** Automatic real-time activity logging for assignee updates, priority shifts, stage transitions, and task creations.
-- **✅ Task Checklists & Progress:** Sub-task management with interactive progress bars, due-date tracking, and urgency tagging.
-- **📦 Project Archiving:** Soft-archiving workflow to freeze completed projects in read-only mode with restore capability.
-- **🔐 Secure Authentication:** Stateless JWT authentication paired with bcrypt password hashing.
-- **🐳 Zero-Config Dockerization:** One-command setup running PostgreSQL 16, Node.js API (auto-migrated and seeded), and React Frontend in isolated containers via Docker Compose.
+- **Multi-Tenancy Architecture:** Strict company-level data isolation. Each organization operates in its own isolated workspace scope.
+- **Kanban Board:** Dynamic board stages (Backlog, In Progress, Review, Done) with smooth task movement, priority indicators, and visual tags.
+- **Live Activity Logs (Audit Trail):** Automatic real-time activity logging for assignee updates, priority shifts, stage transitions, and task creations.
+- **Task Checklists & Progress:** Sub-task management with interactive progress bars, due-date tracking, and urgency tagging.
+- **Project Archiving:** Soft-archiving workflow to freeze completed projects in read-only mode with restore capability.
+- **Secure Authentication:** Stateless JWT authentication paired with bcrypt password hashing.
+- **Zero-Config Dockerization:** One-command setup running PostgreSQL 16, Node.js API (auto-migrated and seeded), and React Frontend in isolated containers via Docker Compose.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -29,7 +29,7 @@
 
 ---
 
-## ⚡ Quick Start with Docker
+## Quick Start with Docker
 
 You can run the entire ecosystem locally with a single command:
 
@@ -42,14 +42,14 @@ cd koza-task-management
 docker compose up --build
 ```
 
-The database migrations and initial demo data will be applied automatically on first launch!
+The database migrations and initial demo data will be applied automatically on first launch.
 
 ### Access URLs:
-- 🖥️ **Frontend (UI):** [http://localhost:5173](http://localhost:5173)
-- ⚙️ **Backend API:** [http://localhost:3000](http://localhost:3000)
-- 🗄️ **PostgreSQL:** `localhost:5433`
+- **Frontend (UI):** [http://localhost:5173](http://localhost:5173)
+- **Backend API:** [http://localhost:3000](http://localhost:3000)
+- **PostgreSQL:** `localhost:5433`
 
-### 🔑 Pre-seeded Demo Credentials:
+### Pre-seeded Demo Credentials:
 - **Company Slug:** `koza`
 - **Email:** `admin@koza.com`
 - **Password:** `Admin123!`
@@ -58,6 +58,7 @@ The database migrations and initial demo data will be applied automatically on f
 
 ---
 
-## 👨‍💻 Author
+## Authors & Contributors
 
 - **Muhammed Nur Habbuş** — [GitHub](https://github.com/Mohamadhaboush)
+- **Ümit Yaşar Süpürgeci**
